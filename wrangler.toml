@@ -6,7 +6,7 @@ compatibility_flags = ["nodejs_compat"]
 # 自定义域名（可选，推荐配置）
 # 取消注释并替换为你自己的域名和 Zone ID
 routes = [
-  { pattern = "tvbox.3352326.xyz/*", zone_id = "your-zone-id" }
+  { pattern = "tvbox.3352326.xyz/*", zone_id = "9b16e6574d56e7c11ed662443ec3c101" }
 ]
 
 [triggers]
@@ -21,4 +21,4 @@ preview_id = "34e4ad3d0feb4492bf0b8a82422b0fe8"
 SPEED_TIMEOUT_MS = "5000"   # 源地址延迟阈值（毫秒）
 SITE_TIMEOUT_MS = "3000"    # 站点 API 延迟阈值（毫秒）
 FETCH_TIMEOUT_MS = "5000"   # 抓取配置 JSON 超时（毫秒）
-WORKER_BASE_URL = "https://tvbox.rio.edu.kg"  # CF 边缘代理依赖此配置（JAR/MacCMS/直播源代理）
+WORKER_BASE_URL = "https://tvbox.3352326.xyz"  # CF 边缘代理依赖此配置（JAR/MacCMS/直播源代理）
