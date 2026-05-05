@@ -5,17 +5,17 @@ compatibility_flags = ["nodejs_compat"]
 
 # 自定义域名（可选，推荐配置）
 # 取消注释并替换为你自己的域名和 Zone ID
-# routes = [
-#   { pattern = "tvbox.yourdomain.com/*", zone_id = "your-zone-id" }
-# ]
+routes = [
+  { pattern = "tvbox.3352326.xyz/*", zone_id = "your-zone-id" }
+]
 
 [triggers]
 crons = ["0 * * * *"]  # 每小时触发，实际执行频率由 Admin 设置的聚合间隔控制
 
 [[kv_namespaces]]
 binding = "KV"
-id = "0a954fa3ef4847a1911d39eab5b3dd0b"
-preview_id = "01be699a3f2e4e85a7b907ad1ce87c95"
+id = "34e4ad3d0feb4492bf0b8a82422b0fe8"
+preview_id = "34e4ad3d0feb4492bf0b8a82422b0fe8"
 
 [vars]
 SPEED_TIMEOUT_MS = "5000"   # 源地址延迟阈值（毫秒）
